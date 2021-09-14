@@ -6,6 +6,7 @@ import { CopyrightBarComponent } from './copyrightBar/copyright-bar.component';
 import { CopyrightStatementComponent } from './copyrightBar2/copyright-statement.component';
 import { BottomNavBarComponent } from './footer1/bottom-nav-bar.component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
+import { LeaderCardsComponent } from './leaderCards/LeaderCards.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { TopNavBarComponent } from './header/top-nav-bar.component';
     TopNavBarComponent,
     BottomNavBarComponent,
     CopyrightBarComponent,
-    CopyrightStatementComponent
+    CopyrightStatementComponent,
+    LeaderCardsComponent
   ],
   imports: [
     BrowserModule
